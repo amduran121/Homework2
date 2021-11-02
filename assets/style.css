@@ -50,5 +50,21 @@ section h3 {
   width: 150px;
   padding: 10px;
   margin: 10px;
-  border: 5px black;
+}
+.aboutMe {
+  border: 10px solid black;
+}
+
+section .work {
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.work {
+  height: 150px;
+  width: 150px;
+  padding: 10px;
+  margin: 10px;
 }
