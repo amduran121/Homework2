@@ -47,7 +47,7 @@ title {
 
 section h3 {
   height: 150px;
-  width: 150px;
+  width: 100%;
   padding: 10px;
   margin: 10px;
 }
@@ -55,13 +55,24 @@ section h3 {
   border: 10px solid black;
 }
 
-.work section {
+section .work {
   border: 10px solid black;
-  height: 400px;
+  height: 150px;
   width: 100%;
   padding: 10px;
   margin: 10px;
-  display: flex;
-  flex-wrap: wrap;
-  position: relative;
+}
+section .contactInformation {
+  height: 150px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border: 10px solid black;
+}
+section .contactBox {
+  height: 150px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  border: 10px solid black;
 }
