@@ -23,8 +23,9 @@ body {
   position: absolute;
 }
 
-h2 {
+.h2 {
   background-color: #2a607c;
+  text-decoration: #ffffff;
 }
 
 h1 {
