@@ -108,7 +108,10 @@ main section div {
   width: 75%;
 }
 .textBox {
-  background-color: wheat;
+  /* background-color: wheat; */
+  background-image: url("./abstract-futuristic-cyberspace-binary-code-600w-740523562\ \(1\).webp");
   margin: 10px;
-  opacity: 30%;
+  /* opacity: 30%; */
+  color: white;
+  height: 10rem;
 }
