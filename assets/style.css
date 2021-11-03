@@ -16,6 +16,17 @@ body {
   color: #ffffff;
 }
 
+#workImage {
+  background-image: url("./canva-photo-editor-8-7.png");
+  height: 300px;
+  color: white;
+  position: absolute;
+}
+
+h2 {
+  background-color: #2a607c;
+}
+
 h1 {
   display: inline-block;
   font-size: 48px;
@@ -51,16 +62,13 @@ section h3 {
   padding: 10px;
   margin: 10px;
 }
-.aboutMe {
-  border: 10px solid black;
-}
-
 section .work {
-  border: 10px solid black;
+  border: 10px solid white;
   height: 150px;
   width: 100%;
   padding: 10px;
   margin: 10px;
+  color: white;
 }
 section .contactInformation {
   height: 150px;
@@ -80,7 +88,7 @@ section .contactBox {
 section .aside {
   border: 10px solid black;
   height: 150px;
-  width: 100%;
+  width: 90%;
   padding: 10px;
   margin: 10px;
 }
@@ -98,4 +106,9 @@ main section h3 {
 }
 main section div {
   width: 75%;
+}
+.textBox {
+  background-color: wheat;
+  margin: 10px;
+  opacity: 30%;
 }
