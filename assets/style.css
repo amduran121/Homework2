@@ -4,7 +4,10 @@
   margin: 0;
 }
 
+html,
 body {
+  height: 100%;
+  margin: 0;
   background-color: #d9dcd6;
 }
 /*Through line 49, this is for the formatting at the top of the page listing the SEO, online-reputation, and social media marketing; making it inline and justified to the right.*/
@@ -15,13 +18,13 @@ body {
   background-color: #2a607c;
   color: #ffffff;
 }
-
+/* 
 #workImage {
   background-image: url("./canva-photo-editor-8-7.png");
   height: 300px;
   color: white;
   position: absolute;
-}
+} */
 
 .h2 {
   background-color: #2a607c;
@@ -53,46 +56,33 @@ a {
   color: #ffffff;
   text-decoration: none;
 }
+a:hover {
+  color: lightblue;
+}
 title {
   background-color: #2a607c;
 }
 
-section h3 {
+h3 {
   height: 150px;
   width: 100%;
   padding: 10px;
   margin: 10px;
-}
-section .work {
-  border: 10px solid white;
-  height: 150px;
-  width: 100%;
-  padding: 10px;
-  margin: 10px;
-  color: white;
-}
-section .contactInformation {
-  height: 150px;
-  width: 100%;
-  padding: 10px;
-  margin: 10px;
-  border: 10px solid black;
-}
-section .contactBox {
-  height: 150px;
-  width: 100%;
-  padding: 10px;
-  margin: 10px;
-  border: 10px solid black;
 }
 
-section .aside {
-  border: 10px solid black;
+.work {
   height: 150px;
-  width: 90%;
+  width: 100%;
   padding: 10px;
   margin: 10px;
 }
+.contact {
+  height: 150px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -108,17 +98,40 @@ main section h3 {
 main section div {
   width: 75%;
 }
-.textBox {
+.workBox {
   /* background-color: wheat; */
   background-image: url("./abstract-futuristic-cyberspace-binary-code-600w-740523562\ \(1\).webp");
   margin: 10px;
   /* opacity: 30%; */
   color: white;
   height: 10rem;
+  font-size: 40px;
 }
-.workBox {
-  background-image: url("./back-rear-spine-view-photo-600w-1702515220.webp";
+.contactBox {
+  background-image: url("./back-rear-spine-view-photo-600w-1702515220.webp");
+  width: fit-content;
   margin: 10px;
   color: white;
   height: 10rem;
 }
+.contactInfo {
+  text-align: center;
+  margin: -50px 20px 0px 20px;
+  height: 50px;
+}
+
+.push {
+  text-align: center;
+  margin: 20px;
+  height: 50px;
+}
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+/* .contactBox {
+  height: 150px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+} */
